@@ -1,0 +1,361 @@
+body{
+    margin: 0 auto;
+}
+/*------------------- Navbar Setting -----------------*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 0 40px;
+    background-color: #dbdbdb;
+}
+.nav-left ul{
+    list-style: none;
+    display: flex;
+}
+.nav-left ul img{
+    align-items: center;
+    margin-right: 35px;
+}
+.nav-left ul li{
+    margin-left: 30px;
+    font-size: 20px;
+    align-items: center;
+}
+.nav-left a{
+    text-decoration: none;
+    color: black;
+}
+.nav-right{
+    background-color: rgb(11, 36, 71);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+}
+
+/*---------------------- Form Setting ------------------------*/
+.git{
+    margin: 5% auto 0;
+    width: 225px;
+    font-family: 'poppins', sans-serif;
+}
+
+form{
+    margin: 25px auto;
+    width: 300px;
+    justify-content: center;
+}
+
+form div{
+    position: relative;
+    margin-top: 10px;
+}
+
+.nama label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nama input{
+    width: 100%;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+
+.email label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.email input{
+    width: 100%;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+
+.phone label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.phone input{
+    width: 100%;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+
+.subject label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subject select{
+    width: 100%;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+
+.urmsg label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.urmsg textarea{
+    width: 100%;
+    background-color: #dfdfdf;
+    resize: none;
+}
+.button button{
+    background-color: rgb(11, 36, 71);
+    padding: 10px 20px;
+    border: none;
+    color: #dbdbdb;
+    border-radius: 10px;
+    float: right;
+}
+
+/*------------------ Card Setting ---------------------*/
+
+.card{
+    background-color: #dfdfdf;
+    width: 65%;
+    margin: 10% auto;
+    display: flex;
+    border-radius: 10px;
+    font-family: 'poppins';
+    box-shadow: 7px 5px 20px 1px rgba(0,0,0,.75);
+}
+.bio{
+   margin: 1% 5% auto 5%;
+}
+.bio h2{
+    margin-bottom: 5px;
+}
+.foto{
+    margin: 10px 15px 10px 0;
+}
+.fhp{
+    font-family: poppins;
+    font-weight: 600;
+    padding-left: 15%;
+}
+.fd{
+    font-family: poppins;
+    font-weight: 400;
+    padding-left: 25%;
+    font-size: 12px;
+}
+.cd{
+    margin-top: 20px;
+}
+.cd button{
+    background-color: rgb(11, 36, 71);
+    padding: 5px 20px;
+    color: #dbdbdb;
+    border: none;
+    border-radius: 15px;
+}
+.cd span{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.sosmed{
+    margin-top: 20px;
+}
+.sosmed a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/*-------------------- Project Settings --------------*/
+
+.post{
+    width: 70%;
+    margin: 5% auto ;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+}
+.post h1{
+    text-align: center;
+}
+.nproject label{
+    display: block;
+    font-family: poppins;
+    font-weight: 600;
+}
+.nproject input{
+    margin: 2px auto;
+    width: 100%;
+    height: 25px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+.date{
+    width: 100%;
+    display: flex;
+}
+.start{
+    margin: 0 2% 0 0;
+    width: 100%;
+}
+.end{
+    margin: 0 0 0 2%;
+    width: 100%;
+}
+.date label{
+    display: block;
+    font-family: poppins;
+    font-weight: 600;
+}
+#mulai{
+    width: 100%;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+#selesai{
+    width: 100%;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+.description label{
+    display: block;
+    font-family: poppins;  
+    font-weight: 600;  
+}
+.description textarea{
+    width: 100%;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+.tech{
+    width: 100%;
+}
+.tech label{
+    font-weight: 600;
+    font-family: poppins;
+}
+.techno{
+    width: 100%;
+}
+.techno label{
+    font-weight: 600;
+    font-family: poppins;
+}
+.upload label{
+    width: 100%;
+    display: block;
+    font-family: poppins; 
+    font-weight: 600;
+}
+.bup{
+    width: 100%;
+    justify-content: space-between;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+.bup i{
+    width: auto;
+    height: auto;
+    float: right;
+}
+.btn{
+    justify-content: right;
+}
+.btn button{
+    background-color: rgb(11, 36, 71);
+    padding: 5px 20px;
+    color: #dbdbdb;
+    border: none;
+    border-radius: 15px;
+    float: right;
+}
+
+
+
+
+
+
+
+.blog{
+    width: 90%;
+    margin: 2% auto;
+    height: auto;
+}
+.blog h1{
+    text-align: center;
+}
+.barea{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card1 {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.card1 img{
+    width: 350px ;
+    height: 180px;
+    border-radius: 5px;   
+}
+.title{
+    margin: 2px;
+    font-weight: 700;
+    font-family: poppins;
+}
+.drs{
+    margin: 2px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.card1 p{
+    margin: 3% 2px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.sembol{
+    margin-top: 10%;
+}
+.sembol img{
+    width: 30px;
+    height: 30px;
+}
+.crd-btn{
+    width: 100%;
+}
+.crd-btn button{
+    background-color: rgb(11, 36, 71);
+    padding: 10px 20px;
+    border: none;
+    color: #dbdbdb;
+    border-radius: 10px;
+    width: 50%;
+    position: relative;
+    margin-top: 10%;
+
+}
+.btn-edit{
+    float: left;
+}
+.btn-del{
+    float: right;
+}

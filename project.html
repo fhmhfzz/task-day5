@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="css_js/main.css">
+        <link rel="stylesheet" href="assets/fontawesome-free-6.4.0-web/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <img src="assets/Logo.png" alt="Dumbways.jpg">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">My Project</a></li>
+                </ul>
+            </div> 
+            <div class="nav-right">
+                <a href="form.html">Contact Me</a>
+            </div>
+        </nav>
+        <div class="post">
+            <h1>ADD MY PROJECT</h1>
+            <form onsubmit="getBlog(event)" style="width: 60%;">
+                <div class="nproject">
+                    <label for="nproject">Project Name</label>
+                    <input type="text" id="nproject">
+                </div>
+                <div class="date">
+                    <div class="start">
+                        <label for="mulai">Start Date</label>
+                        <input type="date" id="mulai">
+                    </div>
+                    <div class="end">
+                        <label for="selesai">End Date</label>
+                        <input type="date" id="selesai">
+                    </div>
+                </div>
+                <div class="description">
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                </div>
+                <div class="tech">
+                    <label for="tech" style="display: block;">Technologies</label>
+                    <table class="techno">
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="node" name="techo" value="nodejs.png">
+                                <label for="node">Node JS</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="react" name="techo" value="react.png">
+                                <label for="react">React JS</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" id="next" name="techo" value="nextjs.png">
+                                <label for="next">Next JS</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="types" name="techo" value="socketio.png">
+                                <label for="types">Socket IO</label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="upload">
+                    <label for="upd">Upload Image</label>
+                    <div class="bup" for="upload">
+                        <input type="file" id="upload"><i for="upload" class="fa-solid fa-paperclip"></i>
+                    </div>
+                <div class="btn">
+                    <button>Submit</button>
+                </div>
+                </div>
+            </form>
+        </div>
+        <div class="blog">
+            <h1>MY PROJECT</h1>
+            <div class="barea" id="area">
+                <div class="card1">
+                    <img src="assets/blog1.jpg" alt="">
+                    <div class="title">Dumbways Mobile App -2021</div>
+                    <div class="drs">Durasi : 3bulan</div>
+                    <p>Ini banyak Content Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta voluptates, soluta ad, ullam sapiente rerum accusantium deleniti facere earum laboriosam libero minima nostrum fugiat. Alias dolorum ullam illum error nemo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis fugit optio vero animi praesentium hic eaque nostrum? Fugit cumque enim est quasi unde natus nam, suscipit sunt labore magnam?</p>
+                    <div class="sembol">
+                        <img src="assets/nextjs.png" alt="">
+                    </div>
+                    <div class="crd-btn">
+                        <a href="#"><button class="btn-edit">Edit</button></a>
+                        <a href="#"><button class="btn-del">Delete</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="css_js/script.js"></script>
+</html>
